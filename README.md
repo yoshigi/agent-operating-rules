@@ -6,6 +6,19 @@
 > such runtime.) Calibrated on one person's workload; read the core claim below
 > before reusing any number.
 
+## What this is, in the author's words
+
+- **It is how I work with AI agents every day** — when I hand work off, how I
+  check what comes back, and how the rules themselves change as I learn.
+- **It is a method, not code.** Nothing here explains how any agent runtime or
+  SDK works. The seven files never name a vendor — whichever agent you use,
+  whichever model you switch to, it still applies.
+- **It is a way of operating and a set of suggestions, and you still have to do
+  the work yourself.** The thresholds in these files are the ones I calibrated
+  on my own workload. Yours have to come out of your own runs.
+- **It passes on a road already walked.** The lessons are evidence of what went
+  wrong and what I changed — read them as evidence, not as instructions.
+
 A small set of rules that one person calibrated, over months of daily use, for
 delegating work to AI agents: when the main conversation must hand work off,
 which capability tier gets it, what a dispatch prompt must contain, how output
@@ -40,9 +53,12 @@ environment and arrive at your own constants:
 5. Wait for the same class of failure to happen twice before promoting a note
    into a rule.
 
-Copying the files verbatim gives you someone else's thresholds enforced on your
-workload. That is worse than having no rules, because the rules will misfire,
-and misfiring rules teach people to route around the rulebook.
+Copying is fine — most people learn by copying first. What matters is where
+you copy to: into your own sandbox, where you understand the ideas, run the
+method once, and then adjust the numbers to your own work step by step. Do not
+drop these files straight into your live workflow. That puts a process you
+have not yet tested on yourself into production, and it is worse than having
+no rules: rules that fire wrongly teach people to route around the rulebook.
 
 ---
 
