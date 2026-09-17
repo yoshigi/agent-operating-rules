@@ -53,7 +53,7 @@ first, then dispatch the whole batch — rather than growing it as you go.
   Inherited tiers are how trivial work ends up on expensive models and
   consequential work ends up on cheap ones.
 - Reasoning depth often **cannot** be set at dispatch time; it may be fixed in
-  the agent's definition file instead. Verify how your own harness exposes this
+  the agent's definition file instead. Verify how your own agent runtime (the vendor's "harness") exposes this
   before assuming a dispatch-time parameter exists, and write the answer down
   once you know.
 
@@ -166,8 +166,8 @@ the middle** — do not wait on it inline. Send it to the background.
 
 - Dispatch a full-tool agent in background mode. The main conversation continues
   with something else, or ends the turn, and is called back on completion.
-- **Do not poll.** A harness that can notify you will. Schedule a check only for
-  external systems the harness cannot observe — a CI run, a remote queue.
+- **Do not poll.** A runtime that can notify you will. Schedule a check only for
+  external systems the runtime cannot observe — a CI run, a remote queue.
 - Build a **self-check loop** into the prompt: carry the rubric, fail → fix →
   rerun, capped at two or three rounds (see §5), and report a file path.
 - **Mark human-in-the-loop gates explicitly and leave them empty.** Anything
