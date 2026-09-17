@@ -56,9 +56,11 @@ and misfiring rules teach people to route around the rulebook.
 | `governance.md` | How the rules themselves may change: permission tiers, the governance-file red line, the four-step edit, pruning thresholds, and the four ways a system like this dies |
 | `lessons.md` | Eleven concrete failures that produced the rules. Read as evidence, not as instruction |
 
-Read `model-dispatch.md` first. `governance.md` matters only once the rules
-have survived long enough to need maintenance — which is also when systems like
-this usually rot.
+Read `model-dispatch.md` first; it is the file you will use every day.
+`governance.md` is the file you will need later, and it is not optional: rules
+accumulate, and accumulation by itself is fine — what rots a system like this
+is accumulation with no rule for tidying up. `governance.md` is that tidying
+rule.
 
 ## Model tiers
 
