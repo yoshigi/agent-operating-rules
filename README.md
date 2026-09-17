@@ -1,4 +1,10 @@
-# An Operating Harness for Working with AI Agents
+# Agent Operating Rules
+
+> Rules for a *person* working with AI agents — not an SDK, not an execution
+> framework. (Vendors use "harness" for the runtime that turns a model into an
+> agent; this repository is the human-side discipline that sits on top of any
+> such runtime.) Calibrated on one person's workload; read the core claim below
+> before reusing any number.
 
 A small set of rules that one person calibrated, over months of daily use, for
 delegating work to AI agents: when the main conversation must hand work off,
