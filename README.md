@@ -96,15 +96,22 @@ models doing consequential work, and you find out weeks later.
 
 ## What this is not
 
-- Not a framework. There is nothing to install and no code to run.
-- Not benchmarked. Nothing here was measured against a control group. It is one
-  operator's field notes with the failures still attached.
-- Not stable. Roughly half of these rules exist because a specific tool behaved
-  a specific way; when the tool changes, the rule should be deleted, not
-  preserved out of respect.
-- Not complete. `judgment-rubrics.md` ends with an explicit list of the things
-  this method cannot fix — ambiguous requests and matters of taste. Those are
-  handed back to a human by design.
+- **Not a framework.** There is nothing to install and no code to run. For
+  you this means: reading it is the whole setup; what you do with it happens
+  in your own working habits, not in a tool.
+- **Not benchmarked.** Nothing here was measured against a control group. It is
+  one operator's field notes with the failures still attached. For you this
+  means: treat every rule as a hypothesis that worked once for one person, not
+  as a finding.
+- **Not stable.** Roughly half of these rules exist because a specific tool
+  behaved a specific way; when the tool changes, the rule should be deleted,
+  not preserved out of respect. For you this means: expect to throw rules
+  away, and do not keep one just because it once saved you.
+- **Not complete.** `judgment-rubrics.md` ends with an explicit list of the
+  things this method cannot fix — ambiguous requests and matters of taste.
+  Those are handed back to a human by design. For you this means: when the
+  rules go quiet, that is the moment your own judgment is being asked for, not
+  a gap to patch.
 
 ## The few things that probably do transfer
 
