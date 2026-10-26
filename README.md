@@ -63,7 +63,7 @@ The rule files use three levels and never name a vendor, because models keep cha
 | **Standard** | Claude Opus 5.5 | For long-running agentic coding and knowledge work. If you're unsure, Anthropic suggests starting here for most workloads. Moderate speed | The conversation where I direct the work: breaking it down, deciding who gets what, judging whether the result is usable |
 | **High-judgment** | Claude Fable 5.1 | For demanding reasoning and long-horizon agentic work, or when your own tests on Opus 5.5 at higher effort still fall short. Slowest and most expensive of the four | My main conversation ran on it for a while, then moved to Opus 5.5 |
 
-**Start with Opus 5.5.** Anthropic suggests starting with Opus 5.5 when you're unsure and moving to Fable 5.1 when that isn't enough. I recommend the same. The most capable model uses a lot, and subscription allowances run out fast. Giving it chores is like asking a senior advisor to sort your email. Save it for the truly hard, highest-stakes calls.
+**Start with Opus 5.5.** Anthropic suggests starting with Opus 5.5 when you're unsure and moving to Fable 5.1 when that isn't enough. I recommend the same. The most capable model burns through usage quickly, and subscription allowances are limited. Giving it chores is like asking a senior advisor to sort your email. Save it for the truly hard, highest-stakes calls.
 
 The same split works for ChatGPT or any other vendor: place their models on the three levels from "fast and cheap" to "slower but deeper." The tool (ChatGPT, Claude Code) isn't the level. The level is the model you pick inside it.
 
@@ -71,7 +71,7 @@ Whatever the models become: **pick the level on purpose, every time.** Let it de
 
 ## How to use it (try it once first, then grow your own version)
 
-This section is a starting move: get one framework, then run one small experiment. No need to argue whether the rules are right. Make a guess, test it, keep what works.
+This section is a starting move: get one framework, then run one small experiment. Treat the rules as guesses to test: make a guess, test it, keep what works.
 
 ### One framework: treat every rule as an experiment
 
@@ -116,7 +116,7 @@ A week later, look back. Did that line save you even one "it said done, but it w
 
 - **The person in charge focuses on decisions.** Keep the main conversation for decisions; send the details to the agents you hand work to.
 - **Someone who didn't make it checks it.** A person, or an agent, that never saw how it was made.
-- **Check every success written into another system.**
+- **Check every success written into another system.** If the agent changed a schedule, a file, or a setting, open it and look.
 - **Make a rule on the second time, not the first.** One incident gets a note; a repeat gets a rule.
 - **Write what to do, why, and where it doesn't apply.**
 
@@ -125,7 +125,7 @@ None of these contains a number. That's the line between what you can borrow and
 ## A beginner's guide (scope and how to use it)
 
 - **Ready to use once you've read it.** Nothing to install. The rest happens in your habits.
-- **Treat each rule as what worked for one person.** Nothing was compared against a control group.
+- **Treat each rule as what worked for one person.** Nothing was compared against a control group (a second group used for comparison).
 - **When a tool changes, change the rule.** About half of these rules exist because of how a tool behaved at the time. When the tool changes, delete the rule.
 - **Where the rules stop, your judgment takes over.** Vague requests and matters of taste are left to a human on purpose.
 
@@ -138,7 +138,7 @@ Every rule comes from something that really happened, recorded in my private not
 3. **Check the abstraction.** Every part of an abstracted example or analogy must still map back to the original event. If an example loses its meaning once abstracted, the rule stays out.
 4. **Review independently.** An agent that took no part in the writing marks each checklist item pass or fail, such as whether facts have sources and whether anything identifying is left. Failures get fixed and reviewed again.
 5. **Author sign-off.** I read it before it goes out. The AI never publishes on its own.
-6. **Keep a record.** Every change and its reason is in the git history, where anyone can look it up.
+6. **Keep a record.** Every change and its reason is in the git history (its version log), where anyone can look it up.
 
 That's why this repository can tell you plainly what won't generalize. What's worth trusting here is the reasoning, not the numbers.
 
