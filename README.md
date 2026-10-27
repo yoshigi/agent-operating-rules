@@ -2,6 +2,8 @@
 
 **In one line:** how one person hands work to AI agents, checks what comes back, and keeps the rules from rotting. It's a method for people, not code.
 
+> **Bringing AI into a team or company?** Start with the [AI adoption framework](framework/framework.zh.md) (Traditional Chinese): picking the right work, five steps, three adoption stages, and what to do in week one. This page and the five rule files are the operating detail behind it.
+
 ---
 
 ## Start with a small story
