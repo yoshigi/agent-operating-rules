@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 570" width="960" height="570" role="img">
+<title>導入的三個階梯</title>
+<desc>由下往上三階：第 1 階一個人先用，讓單一任務變快；第 2 階一個團隊共用，把流程寫成規則並加上檢查點；第 3 階跨系統串起來，需要長期穩定運作、符合內部資安與治理規範、AI 產出由人簽核共同負責，並由工程師協同進場。</desc>
+<style>
+:root{--bg:#fff;--tx:#1f2328;--sub:#4a5260;--bx:#eaf1fb;--bs:#2f62a8;--ar:#3a4350;--ok:#1a7f37;--okb:#e6f5ea;--no:#b3470b;--nob:#fdeee3;--ln:#f4f6f9;--ac:#6a3fb0;--acb:#f1eafb}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1117;--tx:#e6edf3;--sub:#b4bfcc;--bx:#182740;--bs:#79a8ee;--ar:#c9d1d9;--ok:#56d364;--okb:#12301b;--no:#ffa657;--nob:#3a2210;--ln:#161b22;--ac:#c3a2ff;--acb:#2a1f45}}
+text{font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;fill:var(--tx);font-size:16px}
+.t{font-size:22px;font-weight:700}.b{font-size:18px;font-weight:700}.s{fill:var(--sub)}.c{text-anchor:middle}
+.box{fill:var(--bx);stroke:var(--bs);stroke-width:2}.okb{fill:var(--okb);stroke:var(--ok);stroke-width:2}.nob{fill:var(--nob);stroke:var(--no);stroke-width:2}.acb{fill:var(--acb);stroke:var(--ac);stroke-width:2}.lane{fill:var(--ln);stroke:var(--sub);stroke-width:1}
+.ln{fill:none;stroke:var(--ar);stroke-width:2.5}.lok{fill:none;stroke:var(--ok);stroke-width:2.5}.lno{fill:none;stroke:var(--no);stroke-width:2.5;stroke-dasharray:7 5}
+.mk{fill:var(--ar)}.mo{fill:var(--ok)}.mn{fill:var(--no)}.lok2{fill:var(--ok)}.lno2{fill:var(--no)}.cok{fill:var(--ok);font-weight:700}.cno{fill:var(--no);font-weight:700}
+.dv{stroke:var(--sub);stroke-width:2.5;stroke-dasharray:3 6}.pill{fill:var(--bg);stroke:var(--sub);stroke-width:2}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mk"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mo"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mn"/></marker>
+</defs>
+<rect width="960" height="570" style="fill:var(--bg)"/>
+<text x="480" y="36" class="t c" >導入的三個階梯</text>
+<rect x="30" y="400" width="260" height="100" rx="12" class="box"/>
+<rect x="290" y="290" width="260" height="210" rx="12" class="box"/>
+<rect x="550" y="150" width="380" height="350" rx="12" class="box"/>
+<text x="160" y="430" class="b c" >第 1 階</text>
+<text x="160" y="458" class="c" >一個人先用</text>
+<text x="160" y="484" class="c s" >單一任務變快</text>
+<text x="420" y="320" class="b c" >第 2 階</text>
+<text x="420" y="348" class="c" >一個團隊共用</text>
+<text x="420" y="374" class="c s" >把流程寫成規則、</text>
+<text x="420" y="398" class="c s" >加上檢查點</text>
+<text x="740" y="180" class="b c" >第 3 階</text>
+<text x="740" y="208" class="c" >跨系統串起來</text>
+<text x="740" y="240" class="c s" >要同時做到：</text>
+<rect x="580" y="254" width="320" height="36" rx="18" class="okb"/>
+<text x="740" y="278" class="c" >長期穩定運作</text>
+<rect x="580" y="300" width="320" height="36" rx="18" class="okb"/>
+<text x="740" y="324" class="c" >符合內部資安與治理規範</text>
+<rect x="580" y="346" width="320" height="36" rx="18" class="okb"/>
+<text x="740" y="370" class="c" >AI 產出由人簽核，共同負責</text>
+<rect x="580" y="422" width="320" height="44" rx="22" class="acb"/>
+<text x="740" y="451" class="b c" >工程師協同進場</text>
+<text x="480" y="540" class="c s" >由下往上，一階一階來，不要一步跳到第 3 階</text>
+
+</svg>

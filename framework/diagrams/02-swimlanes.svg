@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" role="img">
+<title>誰做什麼：人、做事的 AI、檢查的 AI 三條泳道</title>
+<desc>人先定目標與完成條件；做事的 AI 執行並交出產出；檢查的 AI 逐條對照完成條件。沒過就退回做事的 AI 修改，過了才由人拍板，最後人把學到的寫回規則。</desc>
+<style>
+:root{--bg:#fff;--tx:#1f2328;--sub:#4a5260;--bx:#eaf1fb;--bs:#2f62a8;--ar:#3a4350;--ok:#1a7f37;--okb:#e6f5ea;--no:#b3470b;--nob:#fdeee3;--ln:#f4f6f9;--ac:#6a3fb0;--acb:#f1eafb}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1117;--tx:#e6edf3;--sub:#b4bfcc;--bx:#182740;--bs:#79a8ee;--ar:#c9d1d9;--ok:#56d364;--okb:#12301b;--no:#ffa657;--nob:#3a2210;--ln:#161b22;--ac:#c3a2ff;--acb:#2a1f45}}
+text{font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;fill:var(--tx);font-size:16px}
+.t{font-size:22px;font-weight:700}.b{font-size:18px;font-weight:700}.s{fill:var(--sub)}.c{text-anchor:middle}
+.box{fill:var(--bx);stroke:var(--bs);stroke-width:2}.okb{fill:var(--okb);stroke:var(--ok);stroke-width:2}.nob{fill:var(--nob);stroke:var(--no);stroke-width:2}.acb{fill:var(--acb);stroke:var(--ac);stroke-width:2}.lane{fill:var(--ln);stroke:var(--sub);stroke-width:1}
+.ln{fill:none;stroke:var(--ar);stroke-width:2.5}.lok{fill:none;stroke:var(--ok);stroke-width:2.5}.lno{fill:none;stroke:var(--no);stroke-width:2.5;stroke-dasharray:7 5}
+.mk{fill:var(--ar)}.mo{fill:var(--ok)}.mn{fill:var(--no)}.lok2{fill:var(--ok)}.lno2{fill:var(--no)}.cok{fill:var(--ok);font-weight:700}.cno{fill:var(--no);font-weight:700}
+.dv{stroke:var(--sub);stroke-width:2.5;stroke-dasharray:3 6}.pill{fill:var(--bg);stroke:var(--sub);stroke-width:2}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mk"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mo"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mn"/></marker>
+</defs>
+<rect width="960" height="520" style="fill:var(--bg)"/>
+<text x="480" y="34" class="t c" >誰做什麼：三條泳道</text>
+<rect x="10" y="60" width="940" height="150" rx="6" class="lane"/>
+<text x="75" y="141" class="b c" >人</text>
+<line x1="140" y1="60" x2="140" y2="210" style="stroke:var(--sub);stroke-width:1"/>
+<rect x="10" y="210" width="940" height="150" rx="6" class="lane"/>
+<text x="75" y="291" class="b c" >做事的 AI</text>
+<line x1="140" y1="210" x2="140" y2="360" style="stroke:var(--sub);stroke-width:1"/>
+<rect x="10" y="360" width="940" height="150" rx="6" class="lane"/>
+<text x="75" y="441" class="b c" >檢查的 AI</text>
+<line x1="140" y1="360" x2="140" y2="510" style="stroke:var(--sub);stroke-width:1"/>
+<rect x="150" y="93" width="140" height="84" rx="12" class="box"/>
+<text x="220" y="129" class="c" >人定目標</text>
+<text x="220" y="151" class="c" >與完成條件</text>
+<rect x="314" y="243" width="140" height="84" rx="12" class="box"/>
+<text x="384" y="279" class="c" >執行並</text>
+<text x="384" y="301" class="c" >交出產出</text>
+<rect x="478" y="393" width="140" height="84" rx="12" class="box"/>
+<text x="548" y="429" class="c" >逐條對照</text>
+<text x="548" y="451" class="c" >完成條件</text>
+<rect x="642" y="93" width="140" height="84" rx="12" class="okb"/>
+<text x="712" y="129" class="c" >人拍板</text>
+<text x="712" y="151" class="c" >（過了才算數）</text>
+<rect x="806" y="93" width="140" height="84" rx="12" class="acb"/>
+<text x="876" y="129" class="c" >把學到的</text>
+<text x="876" y="151" class="c" >寫回規則</text>
+<path d="M220 177V285H312" class="ln" marker-end="url(#a)"/>
+<path d="M384 327V435H476" class="ln" marker-end="url(#a)"/>
+<path d="M548 393V285H456" class="lno" marker-end="url(#r)"/>
+<text x="556" y="340" class="cno" >沒過：退回修改</text>
+<path d="M618 435H712V179" class="lok" marker-end="url(#g)"/>
+<text x="722" y="340" class="cok" >過了</text>
+<path d="M782 135H804" class="ln" marker-end="url(#a)"/>
+
+</svg>

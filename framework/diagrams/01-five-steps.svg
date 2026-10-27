@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 410" width="960" height="410" role="img">
+<title>AI 導入的五個步驟</title>
+<desc>由左到右五個步驟：講清楚要什麼、交代依據、分工、換一雙眼睛檢查、人拍板。第 4 步沒通過就退回第 1 步；第 5 步把學到的寫回規則，回到第 1 步，讓下一次更好。</desc>
+<style>
+:root{--bg:#fff;--tx:#1f2328;--sub:#4a5260;--bx:#eaf1fb;--bs:#2f62a8;--ar:#3a4350;--ok:#1a7f37;--okb:#e6f5ea;--no:#b3470b;--nob:#fdeee3;--ln:#f4f6f9;--ac:#6a3fb0;--acb:#f1eafb}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1117;--tx:#e6edf3;--sub:#b4bfcc;--bx:#182740;--bs:#79a8ee;--ar:#c9d1d9;--ok:#56d364;--okb:#12301b;--no:#ffa657;--nob:#3a2210;--ln:#161b22;--ac:#c3a2ff;--acb:#2a1f45}}
+text{font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;fill:var(--tx);font-size:16px}
+.t{font-size:22px;font-weight:700}.b{font-size:18px;font-weight:700}.s{fill:var(--sub)}.c{text-anchor:middle}
+.box{fill:var(--bx);stroke:var(--bs);stroke-width:2}.okb{fill:var(--okb);stroke:var(--ok);stroke-width:2}.nob{fill:var(--nob);stroke:var(--no);stroke-width:2}.acb{fill:var(--acb);stroke:var(--ac);stroke-width:2}.lane{fill:var(--ln);stroke:var(--sub);stroke-width:1}
+.ln{fill:none;stroke:var(--ar);stroke-width:2.5}.lok{fill:none;stroke:var(--ok);stroke-width:2.5}.lno{fill:none;stroke:var(--no);stroke-width:2.5;stroke-dasharray:7 5}
+.mk{fill:var(--ar)}.mo{fill:var(--ok)}.mn{fill:var(--no)}.lok2{fill:var(--ok)}.lno2{fill:var(--no)}.cok{fill:var(--ok);font-weight:700}.cno{fill:var(--no);font-weight:700}
+.dv{stroke:var(--sub);stroke-width:2.5;stroke-dasharray:3 6}.pill{fill:var(--bg);stroke:var(--sub);stroke-width:2}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mk"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mo"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mn"/></marker>
+</defs>
+<rect width="960" height="410" style="fill:var(--bg)"/>
+<text x="480" y="36" class="t c" >AI 導入的五個步驟</text>
+<rect x="20" y="120" width="164" height="170" rx="12" class="box"/>
+<circle cx="102" cy="120" r="19" class="okb"/><text x="102" y="127" class="b c" >1</text>
+<text x="102" y="178" class="b c" >講清楚要什麼</text>
+<text x="102" y="214" class="c s" >目標，以及</text>
+<text x="102" y="242" class="c s" >什麼叫做完</text>
+<path d="M186 205H207" class="ln" marker-end="url(#a)"/>
+<rect x="209" y="120" width="164" height="170" rx="12" class="box"/>
+<circle cx="291" cy="120" r="19" class="okb"/><text x="291" y="127" class="b c" >2</text>
+<text x="291" y="178" class="b c" >交代依據</text>
+<text x="291" y="214" class="c s" >給資料，也說</text>
+<text x="291" y="242" class="c s" >哪些不能碰</text>
+<path d="M375 205H396" class="ln" marker-end="url(#a)"/>
+<rect x="398" y="120" width="164" height="170" rx="12" class="box"/>
+<circle cx="480" cy="120" r="19" class="okb"/><text x="480" y="127" class="b c" >3</text>
+<text x="480" y="178" class="b c" >分工</text>
+<text x="480" y="214" class="c s" >哪些給 AI</text>
+<text x="480" y="242" class="c s" >哪些留給人</text>
+<path d="M564 205H585" class="ln" marker-end="url(#a)"/>
+<rect x="587" y="120" width="164" height="170" rx="12" class="box"/>
+<circle cx="669" cy="120" r="19" class="okb"/><text x="669" y="127" class="b c" >4</text>
+<text x="669" y="178" class="b c" >換一雙眼睛檢查</text>
+<text x="669" y="214" class="c s" >做事的不自己驗</text>
+<text x="669" y="242" class="c s" >另一個來檢查</text>
+<path d="M753 205H774" class="ln" marker-end="url(#a)"/>
+<rect x="776" y="120" width="164" height="170" rx="12" class="box"/>
+<circle cx="858" cy="120" r="19" class="okb"/><text x="858" y="127" class="b c" >5</text>
+<text x="858" y="178" class="b c" >人拍板</text>
+<text x="858" y="214" class="c s" >最後由人決定</text>
+<text x="858" y="242" class="c s" >學到的寫回規則</text>
+<path d="M669 292V350H102V294" class="lno" marker-end="url(#r)"/>
+<text x="385" y="382" class="cno c" >沒過：退回第 1 步重新來</text>
+<path d="M858 101V85H102V96" class="lok" marker-end="url(#g)"/>
+<text x="480" y="74" class="cok c" >寫回規則：下次做得更好</text>
+
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="960" height="480" role="img">
+<title>AI 自己跑的邊界</title>
+<desc>左邊是 AI 可以自己跑的事：整理資料、起草內容、提出修改等人審、自動檢查。右邊是一定停下等人的事：公開發佈、刪除東西、寄出或花錢、修改規則本身。中間的分界線代表停下來問人。</desc>
+<style>
+:root{--bg:#fff;--tx:#1f2328;--sub:#4a5260;--bx:#eaf1fb;--bs:#2f62a8;--ar:#3a4350;--ok:#1a7f37;--okb:#e6f5ea;--no:#b3470b;--nob:#fdeee3;--ln:#f4f6f9;--ac:#6a3fb0;--acb:#f1eafb}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1117;--tx:#e6edf3;--sub:#b4bfcc;--bx:#182740;--bs:#79a8ee;--ar:#c9d1d9;--ok:#56d364;--okb:#12301b;--no:#ffa657;--nob:#3a2210;--ln:#161b22;--ac:#c3a2ff;--acb:#2a1f45}}
+text{font-family:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;fill:var(--tx);font-size:16px}
+.t{font-size:22px;font-weight:700}.b{font-size:18px;font-weight:700}.s{fill:var(--sub)}.c{text-anchor:middle}
+.box{fill:var(--bx);stroke:var(--bs);stroke-width:2}.okb{fill:var(--okb);stroke:var(--ok);stroke-width:2}.nob{fill:var(--nob);stroke:var(--no);stroke-width:2}.acb{fill:var(--acb);stroke:var(--ac);stroke-width:2}.lane{fill:var(--ln);stroke:var(--sub);stroke-width:1}
+.ln{fill:none;stroke:var(--ar);stroke-width:2.5}.lok{fill:none;stroke:var(--ok);stroke-width:2.5}.lno{fill:none;stroke:var(--no);stroke-width:2.5;stroke-dasharray:7 5}
+.mk{fill:var(--ar)}.mo{fill:var(--ok)}.mn{fill:var(--no)}.lok2{fill:var(--ok)}.lno2{fill:var(--no)}.cok{fill:var(--ok);font-weight:700}.cno{fill:var(--no);font-weight:700}
+.dv{stroke:var(--sub);stroke-width:2.5;stroke-dasharray:3 6}.pill{fill:var(--bg);stroke:var(--sub);stroke-width:2}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mk"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mo"/></marker>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="mn"/></marker>
+</defs>
+<rect width="960" height="480" style="fill:var(--bg)"/>
+<text x="480" y="36" class="t c" >AI 自己跑的邊界：哪些可以自己做，哪些一定停下</text>
+<text x="220" y="86" class="b c cok" >AI 可以自己跑</text>
+<text x="740" y="86" class="b c cno" >一定停下等人</text>
+<rect x="40" y="110" width="360" height="58" rx="12" class="okb"/>
+<text x="220" y="146" class="c" >蒐集與整理資料</text>
+<rect x="40" y="184" width="360" height="58" rx="12" class="okb"/>
+<text x="220" y="220" class="c" >起草內容</text>
+<rect x="40" y="258" width="360" height="58" rx="12" class="okb"/>
+<text x="220" y="294" class="c" >開提案等人審（例如提出修改請求）</text>
+<rect x="40" y="332" width="360" height="58" rx="12" class="okb"/>
+<text x="220" y="368" class="c" >自動檢查格式與條件</text>
+<rect x="560" y="110" width="360" height="58" rx="12" class="nob"/>
+<text x="740" y="146" class="c" >公開發佈</text>
+<rect x="560" y="184" width="360" height="58" rx="12" class="nob"/>
+<text x="740" y="220" class="c" >刪除東西</text>
+<rect x="560" y="258" width="360" height="58" rx="12" class="nob"/>
+<text x="740" y="294" class="c" >寄出或花錢</text>
+<rect x="560" y="332" width="360" height="58" rx="12" class="nob"/>
+<text x="740" y="368" class="c" >修改規則本身</text>
+<line x1="480" y1="70" x2="480" y2="400" class="dv"/>
+<rect x="420" y="225" width="120" height="40" rx="20" class="pill"/>
+<text x="480" y="251" class="b c" >停下來問人</text>
+<text x="480" y="448" class="c s" >碰到右邊任何一件事，AI 先停手、問人，等人點頭才往下做。</text>
+
+</svg>
