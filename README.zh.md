@@ -158,4 +158,4 @@
 
 ## 授權
 
-[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。可自由使用、改編、分享（含商用），請註明出處 yoshigi。見 `LICENSE`。
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。可自由使用、改編、分享（含商用），請註明出處 yoshigi。Copyright (c) 2026 yoshigi。見 `LICENSE`。
