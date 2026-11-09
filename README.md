@@ -158,4 +158,4 @@ Here's what to calibrate: the last time an AI agent told you something was done,
 
 ## License
 
-MIT. See `LICENSE`.
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Free to use, adapt and share, including commercially — please credit yoshigi. See `LICENSE`.
